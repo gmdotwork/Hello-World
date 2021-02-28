@@ -2,7 +2,7 @@
 1. When the app is started, the user is presented with the main menu, which allows the user to (1) enter or edit current job details, (2) enter job offers, (3) adjust the comparison
 settings, or (4) compare job offers (disabled if no job offers were entered yet1).
 	* **To realize this requirement we are starting with a user class having direct association with job details, current job, compare settings and compare job classes. Since job offers and current job share most of the attributes, a parent class 'JobDetails' is created. Both CurrentJob and JobOffer class inherit the attributes from its parent class 'JobDetails'.**
-	Update#1: Updated gy gmdotwork.
+	Update#1: Updated by gmdotwork.
 2. When choosing to enter current job details, a user will:<br/>
 - a. Be shown a user interface to enter (if it is the first time) or edit all of the details of their current job, which consist of:
 i. Title
